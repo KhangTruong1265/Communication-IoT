@@ -3,20 +3,20 @@
 #include <PubSubClient.h>
 
 /************ CONFIG ************/
-const char* ssid = "REDMI Turbo 4 Pro";
-const char* password = "quandznhattg";
+const char* ssid = "Redmi Note 12";
+const char* password = "khang12346";
 
-const char* mqtt_server = "10.153.38.110";   // IP Home Assistant
+const char* mqtt_server = "10.220.144.91";   // IP Home Assistant
 const int   mqtt_port   = 1883;
 
-const char* mqtt_user = "quan";
-const char* mqtt_pass = "1234";
+const char* mqtt_user = "khang";
+const char* mqtt_pass = "123456";
 
-const char* student_id = "10123272";
+const char* student_id = "10123184";
 
 /************ MQTT TOPICS ************/
-const char* topic_cmd   = "iot/lab2/10123272/cmd";
-const char* topic_state = "iot/lab2/10123272/state";
+const char* topic_cmd   = "iot/lab2/10123184/cmd";
+const char* topic_state = "iot/lab2/10123184/state";
 
 /************ OBJECTS ************/
 WiFiClient espClient;

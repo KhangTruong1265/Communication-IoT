@@ -1,16 +1,16 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "REDMI Turbo 4 Pro";
-const char* password = "quandznhattg";
+const char* ssid = "Redmi Note 12";
+const char* password = "khang12346";
 
 // IP Home Assistant
-const char* mqtt_server = "10.153.38.110";
+const char* mqtt_server = "10.220.144.91";
 const int mqtt_port = 1883;
 
-const char* mqtt_user = "quan";
-const char* mqtt_pass = "1234";
-const char* student_id = "10123272";
+const char* mqtt_user = "khang";
+const char* mqtt_pass = "123456";
+const char* student_id = "10123184";
 
 /* ===== MQTT CLIENT ===== */
 WiFiClient espClient;
