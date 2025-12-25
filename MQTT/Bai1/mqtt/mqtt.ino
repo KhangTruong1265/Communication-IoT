@@ -6,19 +6,19 @@
 /* ====== CONFIG ====== */
 const char* device_name = "khang_ESP32";
 
-const char* ssid = "PHUC LAM";
-const char* password = "Hoilamgi@";
+const char* ssid = "Redmi Note 12";
+const char* password = "khang12346";
 
 // IP Home Assistant
 // const char* mqtt_server = "10.174.178.157";
-const char* mqtt_server = "192.168.1.18";
+const char* mqtt_server = "10.220.144.91";
 const int mqtt_port = 1883;
 
 const char* mqtt_user = "khang";
 const char* mqtt_pass = "123456";
 
-const char* student_id = "10123195";
-const char* mqtt_topic = "iot/lab1/10123195/sensor";
+const char* student_id = "10123184";
+const char* mqtt_topic = "iot/lab1/10123184/sensor";
 /* ==================== */
 
 WiFiClient espClient;
